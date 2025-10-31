@@ -45,6 +45,9 @@ build/Release
 # Dependency directories
 jspm_packages/
 
+# Allow CDK lib directory
+!lib/
+
 # TypeScript v1 declaration files
 typings/
 
