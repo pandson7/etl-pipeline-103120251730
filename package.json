@@ -1,0 +1,30 @@
+{
+  "name": "etl-pipeline-103120251730",
+  "version": "1.0.0",
+  "description": "This project implements an ETL (Extract, Transform, Load) pipeline using AWS Glue that processes parquet files, transforms them to JSON format, and stores metadata in DynamoDB.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk",
+    "deploy": "cdk deploy --require-approval never",
+    "destroy": "cdk destroy --force"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-cdk/aws-glue-alpha": "^2.221.1-alpha.0",
+    "aws-cdk-lib": "^2.221.1",
+    "constructs": "^10.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

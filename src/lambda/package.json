@@ -1,0 +1,9 @@
+{
+  "name": "etl-orchestrator",
+  "version": "1.0.0",
+  "dependencies": {
+    "@aws-sdk/client-glue": "^3.0.0",
+    "@aws-sdk/client-dynamodb": "^3.0.0",
+    "uuid": "^9.0.0"
+  }
+}
